@@ -1,0 +1,30 @@
+{
+  "name": "digiteam-third-party-plugin",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/zendesk",
+    "packages/share"
+  ],
+  "license": "MIT",
+  "scripts": {},
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.1",
+    "@nx/js": "21.3.2",
+    "@nx/workspace": "21.3.2",
+    "babel-loader": "^8.2.2",
+    "nx": "21.3.2",
+    "rollup": "^4.45.1",
+    "typescript": "^5.5.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "primeicons": "^7.0.0",
+    "primereact": "^10.9.5",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}

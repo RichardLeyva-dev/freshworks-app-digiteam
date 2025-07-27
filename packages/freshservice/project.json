@@ -1,0 +1,15 @@
+{
+  "name": "freshservice",
+  "root": "packages/freshservice",
+  "targets": {
+    "fdk": {
+      "executor": "nx:run-commands",
+      "cache": false,
+      "options": {
+        "command": "fdk run",
+        "cwd": "packages/freshservice",
+        "forwardAllArgs": true
+      }
+    }
+  }
+}

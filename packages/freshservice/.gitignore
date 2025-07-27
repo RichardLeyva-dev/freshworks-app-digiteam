@@ -1,0 +1,44 @@
+# -------------------------------------
+# Node dependencies
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.*.local
+
+# Build outputs
+dist/
+build/
+app/scripts/
+
+# Editor directories and files
+.vscode/
+.idea/
+
+# TypeScript
+*.tsbuildinfo
+
+# Jest coverage
+coverage/
+
+# Webpack cache
+.cache/
+webpack-cache/
+.fdk/
+
+# CSS from Tailwind JIT
+*.css.d.ts
+
+# Miscellaneous
+*.log
+*.tgz
+*.bak

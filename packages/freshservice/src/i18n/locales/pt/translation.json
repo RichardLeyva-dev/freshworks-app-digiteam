@@ -1,0 +1,138 @@
+{
+    "app": {
+      "products": {
+        "freshservice": "Freshservice",
+        "jira": "Jira Service Management",
+        "zendesk": "Zendesk"
+      }
+    },
+    "welcome": "Bem-vindo ao Digiteam",
+    "loading": "Carregando...",
+    "error": "Não foi possível carregar os dados.",
+    "greeting": "Olá, {{name}}",
+    "thanks": "Obrigado por usar nossa ferramenta.",
+    "loadError": {
+      "title": "Problema ao carregar os dados",
+      "description": "Não foi possível obter as informações necessárias do Freshservice.",
+      "action": "Por favor, verifique sua conexão ou recarregue a página.",
+      "urlConfig": "Erro ao carregar a configuração da URL.",
+      "plugin.notConfigured": "O ambiente ou plugin não está configurado no Digiteam. Entre em contato com o administrador.",
+      "initApp": "Erro ao inicializar o aplicativo.",
+      "clientScript": "Erro ao carregar o script do cliente."
+    },
+    "appLoading": "Carregando aplicativo...",
+    "login": {
+      "title": "Acesso ao sistema",
+      "subtitle": "Insira suas credenciais para continuar",
+      "username": "Usuário",
+      "password": "Senha",
+      "button": "Entrar",
+      "required": {
+        "summary": "Campos obrigatórios",
+        "detail": "Por favor, insira o usuário e a senha."
+      },
+      "success": "Login efetuado com sucesso!",
+      "error": "Erro de autenticação",
+      "invalid": "Usuário ou senha incorretos",
+      "failed": {
+        "summary": "Erro no login",
+        "detail": "Usuário ou senha incorretos."
+      }
+    },
+    "toast": {
+      "address_incomplete_title": "Endereço incompleto",
+      "address_incomplete_detail": "Faltam: {{fields}}",
+      "loadError": {
+        "summary": "Erro",
+        "detail": "Não foi possível carregar as ordens."
+      },
+      "logout": {
+        "summary": "Sessão encerrada"
+      },
+      "success": {
+        "title": "Sucesso",
+        "orderCreated": "A ordem foi criada com sucesso."
+      },
+      "error": {
+        "title": "Erro",
+        "submitFailed": "Não foi possível enviar a ordem. Tente novamente.",
+        "summary": "Erro",
+        "loadingPreviewInfo": "Não foi possível carregar as informações para criar a ordem.",
+        "address_field_summary": "Endereço inválido",
+        "address_field_detail": "Não foi possível encontrar o endereço. Verifique os dados.",
+        "invalid_country": "O país indicado é inválido ou não está configurado no Digiteam."
+      },
+        "warning": {
+            "title": "Aviso",
+            "errorNumericField": "Este campo só aceita números."
+        }
+    },
+    "home": {
+      "newOrder": "Nova Ordem",
+      "orderNumber": "Número da OS",
+      "dueDate": "Data limite",
+      "more": "Mais",
+      "less": "Menos",
+      "noOrders": "Nenhuma ordem disponível.",
+      "logout": "Sair"
+    },
+    "order": {
+      "create": {
+        "title": "Criar Ordem",
+        "notes": "Descrição"
+      },
+      "edit": {
+        "title": "Editar Ordem"
+      },
+      "view": {
+        "title": "Ver Ordem"
+      },
+      "dueDateClient": "Data Limite",
+      "phone": "Telefone",
+      "orderType": "Tipo de serviço",
+      "priority": "Prioridade",
+      "unit": "Unidade",
+      "region": "Região",
+      "address": "Endereço",
+      "description": "Descrição",
+      "relatedOrders": "Ordens Relacionadas",
+      "save": "Salvar",
+      "submit": "Enviar"
+    },
+    "PRIORITY.LOW": "Baixa",
+    "PRIORITY.NORMAL": "Normal",
+    "PRIORITY.HIGH": "Alta",
+    "PRIORITY.URGENT": "Urgente",
+    "form": {
+      "error": {
+        "required": "Campos obrigatórios incompletos.",
+        "detail": "Preencha todos os campos necessários antes de continuar."
+      },
+      "select": "Selecionar",
+      "validation": {
+        "phoneRequired": "O telefone é obrigatório.",
+        "orderTypeRequired": "O tipo de serviço é obrigatório.",
+        "priorityRequired": "A prioridade é obrigatória.",
+        "unitRequired": "A unidade é obrigatória.",
+        "regionRequired": "A região é obrigatória.",
+        "addressRequired": "O endereço é obrigatório.",
+        "dueDateRequired": "A data limite é obrigatória.",
+        "phoneInvalid": "Número de telefone inválido. Deve ter entre 10 e 15 dígitos.",
+        "addressInvalid": "Endereço inválido. Deve conter pelo menos 3 caracteres válidos.",
+        "dueDateFuture": "A data deve ser posterior à atual."
+      }
+    },
+    "orderCard": {
+      "historyStatus": "Hist. de Status",
+      "historyCancel": "Cancelar OS",
+      "typeNotInformed": "Tipo não informado",
+      "orderNumber": "Número da OS",
+      "dueDate": "Data limite"
+    },
+    "address": {
+      "country": "País",
+      "state": "Estado",
+      "city": "Cidade",
+      "street": "Rua"
+    }
+  }

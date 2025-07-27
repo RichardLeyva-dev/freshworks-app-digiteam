@@ -1,0 +1,28 @@
+{
+    "contact": {
+      "display_name": "Contact Name",
+      "description": "Please enter your full name",
+      "type": "text",
+      "required": true,
+      "default_value": "Digiteam"
+    },
+    "contactType": {
+      "display_name": "Preferred Contact Method",
+      "description": "Select your preferred method of contact",
+      "type": "dropdown",
+      "required": true,
+      "options": [
+        "Phone",
+        "Email",
+        "WhatsApp"
+      ],
+      "default_value": "Email"
+    },
+    "backend_url": {
+      "display_name": "Digiteam Backend URL",
+      "description": "Enter the base URL for the Digiteam backend API",
+      "type": "url",
+      "required": true,
+      "default_value": "https://gilbarcohml.digiteam.com.br"
+    }
+  }

@@ -1,0 +1,138 @@
+{
+    "app": {
+      "products": {
+        "freshservice": "Freshservice",
+        "jira": "Jira Service Management",
+        "zendesk": "Zendesk"
+      }
+    },
+    "welcome": "Welcome to Digiteam",
+    "loading": "Loading...",
+    "error": "Failed to load data.",
+    "greeting": "Hello, {{name}}",
+    "thanks": "Thank you for using our tool.",
+    "loadError": {
+      "title": "Error loading data",
+      "description": "We couldn’t fetch the required information from Freshservice.",
+      "action": "Please check your connection or refresh the page.",
+      "urlConfig": "Error loading the URL configuration.",
+      "plugin.notConfigured": "The environment or plugin is not configured in Digiteam. Please contact the administrator.",
+      "initApp": "Error initializing the app.",
+      "clientScript": "Error loading the client script."
+    },
+    "appLoading": "Loading application...",
+    "login": {
+      "title": "System Login",
+      "subtitle": "Enter your credentials to continue",
+      "username": "Username",
+      "password": "Password",
+      "button": "Log in",
+      "required": {
+        "summary": "Required fields",
+        "detail": "Please enter username and password."
+      },
+      "success": "Login successful!",
+      "error": "Authentication error",
+      "invalid": "Invalid username or password",
+      "failed": {
+        "summary": "Login failed",
+        "detail": "Invalid username or password."
+      }
+    },
+    "toast": {
+      "address_incomplete_title": "Incomplete address",
+      "address_incomplete_detail": "Missing: {{fields}}",
+      "loadError": {
+        "summary": "Error",
+        "detail": "Failed to load orders."
+      },
+      "logout": {
+        "summary": "Session closed"
+      },
+      "success": {
+        "title": "Success",
+        "orderCreated": "The order was created successfully."
+      },
+      "error": {
+        "title": "Error",
+        "submitFailed": "Failed to submit the order. Please try again.",
+        "summary": "Error",
+        "loadingPreviewInfo": "Failed to load preview information for order creation.",
+        "address_field_summary": "Invalid address",
+        "address_field_detail": "The address could not be found. Please check the details.",
+        "invalid_country": "The selected country is invalid or not configured in Digiteam."
+      },
+        "warning": {
+            "title": "Warning",
+            "errorNumericField": "This field only accepts numbers."
+        }
+    },
+    "home": {
+      "newOrder": "New Order",
+      "orderNumber": "Order Number",
+      "dueDate": "Due Date",
+      "more": "More",
+      "less": "Less",
+      "noOrders": "No orders available.",
+      "logout": "Log out"
+    },
+    "order": {
+      "create": {
+        "title": "Create Order",
+        "notes": "Description"
+      },
+      "edit": {
+        "title": "Edit Order"
+      },
+      "view": {
+        "title": "View Order"
+      },
+      "dueDateClient": "Due Date",
+      "phone": "Phone",
+      "orderType": "Service Type",
+      "priority": "Priority",
+      "unit": "Unit",
+      "region": "Region",
+      "address": "Address",
+      "description": "Description",
+      "relatedOrders": "Related Orders",
+      "save": "Save",
+      "submit": "Submit"
+    },
+    "PRIORITY.LOW": "Low",
+    "PRIORITY.NORMAL": "Normal",
+    "PRIORITY.HIGH": "High",
+    "PRIORITY.URGENT": "Urgent",
+    "form": {
+      "error": {
+        "required": "Some required fields are incomplete.",
+        "detail": "Please complete all required fields before continuing."
+      },
+      "select": "Select",
+      "validation": {
+        "phoneRequired": "Phone is required.",
+        "orderTypeRequired": "Service type is required.",
+        "priorityRequired": "Priority is required.",
+        "unitRequired": "Unit is required.",
+        "regionRequired": "Region is required.",
+        "addressRequired": "Address is required.",
+        "dueDateRequired": "Due date is required.",
+        "phoneInvalid": "Invalid phone number. It must be between 10 and 15 digits.",
+        "addressInvalid": "Invalid address. Must contain at least 3 valid characters.",
+        "dueDateFuture": "The date must be in the future."
+      }
+    },
+    "orderCard": {
+      "historyStatus": "Status History",
+      "historyCancel": "Cancel OS",
+      "typeNotInformed": "Type not informed",
+      "orderNumber": "Order Number",
+      "dueDate": "Due Date"
+    },
+    "address": {
+      "country": "Country",
+      "state": "State",
+      "city": "City",
+      "street": "Street"
+    }
+  }

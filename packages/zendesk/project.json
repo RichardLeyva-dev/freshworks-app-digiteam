@@ -1,0 +1,28 @@
+{
+  "name": "zendesk",
+  "root": "packages/zendesk",
+  "targets": {
+    "dev": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "npm run dev",
+        "cwd": "packages/zendesk"
+      }
+    },
+    "start": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "npm run start",
+        "cwd": "packages/zendesk"
+      }
+    },
+    "build": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "npm run build",
+        "cwd": "packages/zendesk"
+      },
+      "outputs": ["{workspaceRoot}/packages/zendesk/dist"]
+    }
+  }
+}
