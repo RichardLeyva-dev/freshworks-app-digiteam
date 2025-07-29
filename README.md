@@ -1,96 +1,115 @@
-# DigiteamThirdPartyPlugin
+DIGITEAM Freshworks App – Monorepo
+This project contains multiple packages for Freshservice and Zendesk integrations using Nx.
+Follow the instructions below to set up and start the project correctly.
 
-<a alt="Nx logo" href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45"></a>
+📦 Installation
+Install dependencies in the root folder:
 
-✨ Your new, shiny [Nx workspace](https://nx.dev) is ready ✨.
 
-[Learn more about this workspace setup and its capabilities](https://nx.dev/getting-started/intro#learn-nx?utm_source=nx_project&amp;utm_medium=readme&amp;utm_campaign=nx_projects) or run `npx nx graph` to visually explore what was created. Now, let's get you up to speed!
+npm install
+Navigate to the Freshservice package and install additional dependencies:
 
-## Run tasks
 
-To run tasks with Nx use:
+cd packages/freshservice
+npm install
+🚀 Running Freshservice App
+Use Node 18.18.2 (recommended via NVM):
 
-```sh
-npx nx <target> <project-name>
-```
 
-For example:
+nvm use 18.18.2
+Start the Freshservice development environment:
 
-```sh
-npx nx build myproject
-```
 
-These targets are either [inferred automatically](https://nx.dev/concepts/inferred-tasks?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) or defined in the `project.json` or `package.json` files.
+npx nx run freshservice:fdk
+💻 Running Zendesk App
+Use Node 22.12.0:
 
-[More about running tasks in the docs &raquo;](https://nx.dev/features/run-tasks?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
 
-## Add new projects
+nvm use 22.12.0
+In the terminal, run:
 
-While you could add new projects to your workspace manually, you might want to leverage [Nx plugins](https://nx.dev/concepts/nx-plugins?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) and their [code generation](https://nx.dev/features/generate-code?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) feature.
 
-To install a new plugin you can use the `nx add` command. Here's an example of adding the React plugin:
-```sh
-npx nx add @nx/react
-```
+npx nx run zendesk:dev
+In a second terminal, run:
 
-Use the plugin's generator to create new projects. For example, to create a new React app or library:
 
-```sh
-# Generate an app
-npx nx g @nx/react:app demo
+npx nx run zendesk:start
+In the first terminal, run:
 
-# Generate a library
-npx nx g @nx/react:lib some-lib
-```
 
-You can use `npx nx list` to get a list of installed plugins. Then, run `npx nx list <plugin-name>` to learn about more specific capabilities of a particular plugin. Alternatively, [install Nx Console](https://nx.dev/getting-started/editor-setup?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) to browse plugins and generators in your IDE.
+🌍 Português (Brasil)
+Este projeto contém múltiplos pacotes para integrações com Freshservice e Zendesk usando Nx.
+Siga as instruções abaixo para configurar e iniciar o projeto corretamente.
 
-[Learn more about Nx plugins &raquo;](https://nx.dev/concepts/nx-plugins?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) | [Browse the plugin registry &raquo;](https://nx.dev/plugin-registry?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
+📦 Instalação
+Instale as dependências na pasta raiz:
 
-## Set up CI!
 
-### Step 1
+npm install
+Vá até o pacote Freshservice e instale as dependências adicionais:
 
-To connect to Nx Cloud, run the following command:
 
-```sh
-npx nx connect
-```
+cd packages/freshservice
+npm install
+🚀 Executando Freshservice
+Use Node 18.18.2 (via NVM):
 
-Connecting to Nx Cloud ensures a [fast and scalable CI](https://nx.dev/ci/intro/why-nx-cloud?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) pipeline. It includes features such as:
 
-- [Remote caching](https://nx.dev/ci/features/remote-cache?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
-- [Task distribution across multiple machines](https://nx.dev/ci/features/distribute-task-execution?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
-- [Automated e2e test splitting](https://nx.dev/ci/features/split-e2e-tasks?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
-- [Task flakiness detection and rerunning](https://nx.dev/ci/features/flaky-tasks?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
+nvm use 18.18.2
+Inicie o ambiente de desenvolvimento:
 
-### Step 2
 
-Use the following command to configure a CI workflow for your workspace:
+npx nx run freshservice:fdk
+💻 Executando Zendesk
+Use Node 22.12.0:
 
-```sh
-npx nx g ci-workflow
-```
 
-[Learn more about Nx on CI](https://nx.dev/ci/intro/ci-with-nx#ready-get-started-with-your-provider?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
+nvm use 22.12.0
+No terminal:
 
-## Install Nx Console
 
-Nx Console is an editor extension that enriches your developer experience. It lets you run tasks, generate code, and improves code autocompletion in your IDE. It is available for VSCode and IntelliJ.
+npx nx run zendesk:dev
+Em um segundo terminal:
 
-[Install Nx Console &raquo;](https://nx.dev/getting-started/editor-setup?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
 
-## Useful links
+npx nx run zendesk:start
+No primeiro terminal:
 
-Learn more:
 
-- [Learn more about this workspace setup](https://nx.dev/getting-started/intro#learn-nx?utm_source=nx_project&amp;utm_medium=readme&amp;utm_campaign=nx_projects)
-- [Learn about Nx on CI](https://nx.dev/ci/intro/ci-with-nx?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
-- [Releasing Packages with Nx release](https://nx.dev/features/manage-releases?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
-- [What are Nx plugins?](https://nx.dev/concepts/nx-plugins?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
+🇪🇸 Español
+Este proyecto contiene múltiples paquetes para integraciones con Freshservice y Zendesk usando Nx.
+Sigue las instrucciones a continuación para configurar e iniciar el proyecto correctamente.
 
-And join the Nx community:
-- [Discord](https://go.nx.dev/community)
-- [Follow us on X](https://twitter.com/nxdevtools) or [LinkedIn](https://www.linkedin.com/company/nrwl)
-- [Our Youtube channel](https://www.youtube.com/@nxdevtools)
-- [Our blog](https://nx.dev/blog?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
+📦 Instalación
+Instala las dependencias en la carpeta raíz:
+
+
+npm install
+Ingresa a la carpeta Freshservice e instala las dependencias adicionales:
+
+
+cd packages/freshservice
+npm install
+🚀 Ejecutar Freshservice
+Usa Node 18.18.2 (recomendado con NVM):
+
+
+nvm use 18.18.2
+Inicia el entorno de desarrollo:
+
+
+npx nx run freshservice:fdk
+💻 Ejecutar Zendesk
+Usa Node 22.12.0:
+
+
+nvm use 22.12.0
+En la terminal:
+
+
+npx nx run zendesk:dev
+En una segunda terminal:
+
+
+npx nx run zendesk:start
+En la primera terminal:
