@@ -1,115 +1,163 @@
-DIGITEAM Freshworks App – Monorepo
-This project contains multiple packages for Freshservice and Zendesk integrations using Nx.
-Follow the instructions below to set up and start the project correctly.
+# DIGITEAM Freshworks App – Monorepo
 
-📦 Installation
-Install dependencies in the root folder:
+This monorepo contains multiple packages for **Freshservice** and **Zendesk** integrations using **Nx**.
+Follow the instructions below to properly **install**, **configure**, and **run** the project.
 
+---
 
-npm install
-Navigate to the Freshservice package and install additional dependencies:
+## 📦 Installation
 
+1. **Install dependencies in the root folder:**
+   ```bash
+   npm install
+   ```
+2. **Navigate to the Freshservice package and install additional dependencies:**
+   ```bash
+   cd packages/freshservice
+   npm install
+   ```
 
-cd packages/freshservice
-npm install
-🚀 Running Freshservice App
-Use Node 18.18.2 (recommended via NVM):
+---
 
+## 🚀 Running Freshservice App
 
-nvm use 18.18.2
-Start the Freshservice development environment:
+1. **Use Node 18.18.2** (recommended with [NVM](https://github.com/nvm-sh/nvm)):
+   ```bash
+   nvm use 18.18.2
+   ```
+2. **Start the Freshservice development environment:**
+   ```bash
+   npx nx run freshservice:fdk
+   ```
 
+---
 
-npx nx run freshservice:fdk
-💻 Running Zendesk App
-Use Node 22.12.0:
+## 💻 Running Zendesk App
 
+1. **Use Node 22.12.0:**
+   ```bash
+   nvm use 22.12.0
+   ```
+2. **Run the Zendesk app in two terminals:**
 
-nvm use 22.12.0
-In the terminal, run:
+   **Terminal 1:**
+   ```bash
+   npx nx run zendesk:dev
+   ```
+   **Terminal 2:**
+   ```bash
+   npx nx run zendesk:start
+   ```
 
+---
 
-npx nx run zendesk:dev
-In a second terminal, run:
+# 🌍 Português (Brasil)
 
-
-npx nx run zendesk:start
-In the first terminal, run:
-
-
-🌍 Português (Brasil)
-Este projeto contém múltiplos pacotes para integrações com Freshservice e Zendesk usando Nx.
+Este projeto contém múltiplos pacotes para integrações com **Freshservice** e **Zendesk** usando **Nx**.
 Siga as instruções abaixo para configurar e iniciar o projeto corretamente.
 
-📦 Instalação
-Instale as dependências na pasta raiz:
+---
 
+## 📦 Instalação
 
-npm install
-Vá até o pacote Freshservice e instale as dependências adicionais:
+1. **Instale as dependências na pasta raiz:**
+   ```bash
+   npm install
+   ```
+2. **Vá até o pacote Freshservice e instale as dependências adicionais:**
+   ```bash
+   cd packages/freshservice
+   npm install
+   ```
 
+---
 
-cd packages/freshservice
-npm install
-🚀 Executando Freshservice
-Use Node 18.18.2 (via NVM):
+## 🚀 Executando Freshservice
 
+1. **Use Node 18.18.2 (via NVM):**
+   ```bash
+   nvm use 18.18.2
+   ```
+2. **Inicie o ambiente de desenvolvimento:**
+   ```bash
+   npx nx run freshservice:fdk
+   ```
 
-nvm use 18.18.2
-Inicie o ambiente de desenvolvimento:
+---
 
+## 💻 Executando Zendesk
 
-npx nx run freshservice:fdk
-💻 Executando Zendesk
-Use Node 22.12.0:
+1. **Use Node 22.12.0:**
+   ```bash
+   nvm use 22.12.0
+   ```
+2. **Execute em dois terminais:**
 
+   **Terminal 1:**
+   ```bash
+   npx nx run zendesk:dev
+   ```
+   **Terminal 2:**
+   ```bash
+   npx nx run zendesk:start
+   ```
 
-nvm use 22.12.0
-No terminal:
+---
 
+# 🇪🇸 Español
 
-npx nx run zendesk:dev
-Em um segundo terminal:
-
-
-npx nx run zendesk:start
-No primeiro terminal:
-
-
-🇪🇸 Español
-Este proyecto contiene múltiples paquetes para integraciones con Freshservice y Zendesk usando Nx.
+Este proyecto contiene múltiples paquetes para integraciones con **Freshservice** y **Zendesk** usando **Nx**.
 Sigue las instrucciones a continuación para configurar e iniciar el proyecto correctamente.
 
-📦 Instalación
-Instala las dependencias en la carpeta raíz:
+---
 
+## 📦 Instalación
 
-npm install
-Ingresa a la carpeta Freshservice e instala las dependencias adicionales:
+1. **Instala las dependencias en la carpeta raíz:**
+   ```bash
+   npm install
+   ```
+2. **Ingresa a la carpeta Freshservice e instala las dependencias adicionales:**
+   ```bash
+   cd packages/freshservice
+   npm install
+   ```
 
+---
 
-cd packages/freshservice
-npm install
-🚀 Ejecutar Freshservice
-Usa Node 18.18.2 (recomendado con NVM):
+## 🚀 Ejecutar Freshservice
 
+1. **Usa Node 18.18.2 (recomendado con NVM):**
+   ```bash
+   nvm use 18.18.2
+   ```
+2. **Inicia el entorno de desarrollo:**
+   ```bash
+   npx nx run freshservice:fdk
+   ```
 
-nvm use 18.18.2
-Inicia el entorno de desarrollo:
+---
 
+## 💻 Ejecutar Zendesk
 
-npx nx run freshservice:fdk
-💻 Ejecutar Zendesk
-Usa Node 22.12.0:
+1. **Usa Node 22.12.0:**
+   ```bash
+   nvm use 22.12.0
+   ```
+2. **Ejecuta en dos terminales:**
 
+   **Terminal 1:**
+   ```bash
+   npx nx run zendesk:dev
+   ```
+   **Terminal 2:**
+   ```bash
+   npx nx run zendesk:start
+   ```
 
-nvm use 22.12.0
-En la terminal:
+---
 
+## 📌 Notes
 
-npx nx run zendesk:dev
-En una segunda terminal:
-
-
-npx nx run zendesk:start
-En la primera terminal:
+- Ensure you have **NVM** installed to manage Node versions.
+- Run each app in its recommended Node version to avoid compatibility issues.
