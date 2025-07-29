@@ -13,17 +13,17 @@ import {DigiteamApiService} from '../../services/DigiteamApiService';
 import {useLoadGoogleMaps} from '../../services/UseLoadGoogleMaps';
 import MapToggle from './MapToggle';
 
-import {OrderTypeModel} from '../../models/order-type-model';
-import {PriorityModel} from '../../models/priority-model';
-import {OrganizationModel} from '../../models/organization-model';
-import {RegionModel} from '../../models/region-model';
-import {CreateOrderRequest} from '../../models/create-order-request';
-import {DigiteamMappingModel, RequesterModel} from '../../models/config.model';
+import {OrderTypeModel} from '@digiteam/share';
+import {PriorityModel} from '@digiteam/share';
+import {OrganizationModel} from '@digiteam/share';
+import {RegionModel} from '@digiteam/share';
+import {CreateOrderRequest} from '@digiteam/share';
+import {DigiteamMappingModel, RequesterModel} from '@digiteam/share';
 import {usePlatform} from '../../context/PlatformContext';
-import {TicketInfo} from '../../models/ticket-info.model';
-import {DigiteamFieldIdEnum} from '../../enums/digiteam-field-id.enum';
+import {TicketInfo} from '@digiteam/share';
+import {DigiteamFieldIdEnum} from '@digiteam/share';
 import {ThirdPartyConfigService} from '../../services/ThirdPartyConfigService';
-import {FormNameValueModel} from '../../models/form-name-value.model';
+import {FormNameValueModel} from '@digiteam/share';
 
 
 interface Props {

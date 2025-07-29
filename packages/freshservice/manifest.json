@@ -1,34 +1,34 @@
 {
-    "name": "digiteam-thirdparty-plugins",
-    "app_version": "0.0.1",
-    "platform-version": "2.3",
-    "product": {
-      "freshservice": {
-        "location": {
-          "ticket_sidebar": {
-            "url": "index.html",
-            "icon": "icon.svg"
-          }
-        }
-      }
-    },
-    "permissions": {
-      "domains": [
-        "https://*.digiteam.com.br",
-        "https://maps.googleapis.com"
-      ]
-    },
-    "engines": {
-      "node": "18.20.5",
-      "fdk": "9.4.2"
-    },
-    "requests": {
-      "get_contact_by_id": {
-        "url": "https://{{domain}}/api/v2/contacts/{{id}}",
-        "method": "GET",
-        "headers": {
-          "Authorization": "Basic <%= encode(iparams.api_key + ':X') %>"
+  "name": "digiteam-thirdparty-plugins",
+  "app_version": "0.0.1",
+  "platform-version": "2.3",
+  "product": {
+    "freshservice": {
+      "location": {
+        "ticket_sidebar": {
+          "url": "index.html",
+          "icon": "icon.svg"
         }
       }
     }
+  },
+  "permissions": {
+    "domains": [
+      "https://*.digiteam.com.br",
+      "https://maps.googleapis.com"
+    ]
+  },
+  "engines": {
+    "node": "18.18.2",
+    "fdk": "9.5.2"
+  },
+  "requests": {
+    "get_contact_by_id": {
+      "url": "https://{{domain}}/api/v2/contacts/{{id}}",
+      "method": "GET",
+      "headers": {
+        "Authorization": "Basic <%= encode(iparams.api_key + ':X') %>"
+      }
+    }
   }
+}

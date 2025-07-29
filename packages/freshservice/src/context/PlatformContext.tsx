@@ -1,5 +1,5 @@
 import React, { createContext, useContext } from 'react';
-import { IPlatformAdapter } from '../adapters/PlatformAdapter';
+import { IPlatformAdapter } from '@digiteam/share';
 
 type PlatformContextType = {
     platformService: IPlatformAdapter;
