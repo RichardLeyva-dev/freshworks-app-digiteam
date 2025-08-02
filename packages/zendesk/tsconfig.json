@@ -11,12 +11,6 @@
       "@/*": [
         "src/*"
       ],
-      "@digiteam/share": [
-        "../share/src/index.ts"
-      ],
-      "@digiteam/share/*": [
-        "../share/src/*"
-      ]
     },
     "esModuleInterop": true,
     "skipLibCheck": true,

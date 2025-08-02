@@ -21,7 +21,6 @@ export default ({ mode }) => {
       alias: {
         'zendesk_app_framework_sdk': resolve(__dirname, 'src/shims/zaf-sdk.ts'),
         '@': resolve(__dirname, 'src'),
-        '@digiteam/share': resolve(__dirname, '../share/src'),
 
       }
     },

@@ -5,7 +5,7 @@ import {useNavigate} from 'react-router-dom';
 import {usePlatform} from '../context/PlatformContext';
 import {t} from 'i18next';
 import {DigiteamApiService} from '../services/DigiteamApiService';
-import {OrderDetailModel} from '@digiteam/share';
+import {OrderDetailModel} from '../models/order-detail-model';
 import OrderCard from './order-display/OrderCard';
 import {AuthService} from '../services/AuthService';
 import {ThirdPartyConfigService} from '../services/ThirdPartyConfigService';

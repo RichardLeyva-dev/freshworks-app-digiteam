@@ -6,7 +6,7 @@ import {OrderTypeModel} from '../models/order-type-model';
 import {AuthService} from './AuthService';
 import {CreateOrderRequest} from '../models/create-order-request';
 import {PriorityModel} from '../models/priority-model';
-import {OrderDetailModel} from '@digiteam/share';
+import {OrderDetailModel} from '../models/order-detail-model';
 import {PluginConfigModel, DigiteamMappingModel, ProductMappingModel} from '../models/config.model';
 import i18n from '../i18n';
 import {environment} from '../environments/environment.local.freshservice';

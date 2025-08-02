@@ -3,10 +3,6 @@
   "compilerOptions": {
     "rootDir": ".",
     "baseUrl": ".",
-    "paths": {
-      "@digiteam/ui": ["packages/share/src/index.ts"],
-      "@digiteam/ui/*": ["packages/share/src/*"]
-    },
     "moduleResolution": "node",
     "target": "ES2022",
     "module": "ESNext",

@@ -5,7 +5,6 @@ import HomeScreen from '../components/HomeScreen';
 import OrderCreateFormView from '../components/order-create/OrderCreateFormView';
 import LoadErrorView from '../components/LoadErrorView';
 import LoadErrorViewPlugin from '../components/LoadErrorViewPlugin';
-import { HelloWorld } from '@digiteam/share';
 
 const AppRoutes = () => {
     const handleOrderSubmit = (data: any) => {
@@ -14,7 +13,6 @@ const AppRoutes = () => {
     return (
         <Routes>
             <Route path="/" element={<LoginScreen/>}/>
-            {/* <Route path="/" element={<HelloWorld text="Hola desde UI compartida Freshservice" />}/> */}
             <Route path="/error" element={<LoadErrorView/>}/>
             <Route path="/error_plugin" element={<LoadErrorViewPlugin/>}/>
             <Route path="/home" element={<HomeScreen/>}/>

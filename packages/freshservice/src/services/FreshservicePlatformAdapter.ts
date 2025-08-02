@@ -1,15 +1,15 @@
-import { IPlatformAdapter } from '@digiteam/share';
+import { IPlatformAdapter } from '../adapters/PlatformAdapter';
 import { defer, forkJoin, from, Observable, of } from 'rxjs';
 import { catchError, filter, map, mergeMap, switchMap, toArray } from 'rxjs/operators';
-import { UserModel } from '@digiteam/share';
-import { TicketModel } from '@digiteam/share';
-import { ViewStates } from '@digiteam/share';
-import { TicketInfo, TicketRequester } from '@digiteam/share';
+import { UserModel } from '../models/user-model';
+import { TicketModel } from '../models/ticket-model';
+import { ViewStates } from '../enums/view-states.enum';
+import { TicketInfo, TicketRequester } from '../models/ticket-info.model';
 import { buildTicketInfo } from "../utils/ticket-info.factory";
 import { ThirdPartyConfigService } from "./ThirdPartyConfigService";
-import { FieldMappingDescriptor, PluginConfigModel } from '@digiteam/share';
+import { FieldMappingDescriptor, PluginConfigModel } from '../models/config.model';
 import moment from 'moment-timezone';
-import { FormNameValueModel } from '@digiteam/share';
+import { FormNameValueModel } from '../models/form-name-value.model';
 
 interface FreshTicketResponse {
     ticket: { id: string | number };
