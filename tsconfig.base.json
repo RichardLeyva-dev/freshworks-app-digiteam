@@ -1,20 +1,22 @@
 {
-  "compileOnSave": false,
   "compilerOptions": {
-    "rootDir": ".",
-    "baseUrl": ".",
-    "moduleResolution": "node",
-    "target": "ES2022",
+    "target": "ES2020",
     "module": "ESNext",
-    "lib": ["ES2022", "dom"],
+    "moduleResolution": "Node",
     "jsx": "react-jsx",
     "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "types": ["react", "react-dom"],
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },
-  "exclude": ["node_modules", "dist"]
+  "include": [
+    "packages/**/*",
+    "vite.config.ts",
+    "env.d.ts"
+  ]
 }
-
-
-

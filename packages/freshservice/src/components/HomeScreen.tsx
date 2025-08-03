@@ -120,7 +120,7 @@ const HomeScreen: React.FC = () => {
             <Toast ref={toast}/>
             <div className="w-full flex justify-start mb-4">
                 <Button
-                    label={t('home.newOrder')}
+                    label={t('home.newOrder') ?? ''}
                     icon="pi pi-plus"
                     disabled={!canCreateOrder}
                     className="bg-blue-500 border-blue-600 text-white rounded-none px-4 py-2"
@@ -141,7 +141,7 @@ const HomeScreen: React.FC = () => {
             )}
             <div className="w-full flex justify-center mb-4">
                 <Button
-                    label={t('home.logout')}
+                    label={t('home.logout') ?? ''}
                     className="mt-5 text-gray-400 bg-transparent border-0 font-extralight"
                     onClick={handleLogout}
                 />
