@@ -10,10 +10,11 @@ import { PrimeReactProvider } from 'primereact/api';
 import { HashRouter } from 'react-router-dom';
 import { t } from 'i18next';
 
+import '../../freshservice/src/App.css';
 import 'primereact/resources/themes/lara-light-teal/theme.css';
 import 'primereact/resources/primereact.css';
 import 'primeicons/primeicons.css';
-import '../../freshservice/src/App.css';
+
 
 declare global {
   interface Window {
@@ -29,7 +30,7 @@ const ZendeskApp = () => {
  useLayoutEffect(() => {
   console.log("⏳ Inicializando app...");
 
-  const platformService = new ZendeskPlatformService(); // ✅ Sin argumentos
+  const platformService = new ZendeskPlatformService(); 
   console.log("🔧 Creado ZendeskPlatformService");
 
   platformService.resize();

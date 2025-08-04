@@ -40,11 +40,15 @@ export class ZendeskPlatformService implements IPlatformAdapter {
         );
     }
 
-    getDigiteamApiUrl$(): Observable<string | undefined> {
+   /* getDigiteamApiUrl$(): Observable<string | undefined> {
         return from(this.client.metadata()).pipe(
             map((m: any) => m.settings?.digiteam_url)
         );
-    }
+    }*/
+
+    getDigiteamApiUrl$(): Observable<string> {
+    return of('https://gilbarcohml.digiteam.com.br');
+}
 
     getTicketId(): Observable<string> {
         return from(this.client.get('ticket.id')).pipe(
