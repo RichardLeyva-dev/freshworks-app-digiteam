@@ -12,7 +12,7 @@ import AppRoutes from './utils/routes.tsx';
 import { PlatformProvider } from './context/PlatformContext.tsx';
 import { t } from 'i18next';
 import LoadErrorView from './components/LoadErrorView.tsx';
-import { HelloWorld } from '@digiteam/share';
+
 
 declare global {
   interface Window {
@@ -54,7 +54,7 @@ const App: FC = () => {
                   <HashRouter>
                     <PrimeReactProvider>
                       <div className="p-3 space-y-4">
-                        <HelloWorld text="Hola desde UI compartida Freshservice" />
+                        
                         <AppRoutes />
                       </div>
                     </PrimeReactProvider>

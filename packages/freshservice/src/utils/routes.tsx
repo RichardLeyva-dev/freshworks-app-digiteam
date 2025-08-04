@@ -3,8 +3,10 @@ import LoginScreen from '../components/LoginScreen';
 import React from 'react';
 import HomeScreen from '../components/HomeScreen';
 import OrderCreateFormView from '../components/order-create/OrderCreateFormView';
-import LoadErrorView from '../components/LoadErrorView';
 import LoadErrorViewPlugin from '../components/LoadErrorViewPlugin';
+import { HelloWorld } from '@digiteam/share';
+import { LoadErrorView } from '@digiteam/share';
+
 
 const AppRoutes = () => {
     const handleOrderSubmit = (data: any) => {
@@ -12,8 +14,9 @@ const AppRoutes = () => {
     };
     return (
         <Routes>
-            <Route path="/" element={<LoginScreen/>}/>
-            <Route path="/error" element={<LoadErrorView/>}/>
+            
+            <Route path="/" element={<LoadErrorView message="Mensaje de prueba"/>}/>
+
             <Route path="/error_plugin" element={<LoadErrorViewPlugin/>}/>
             <Route path="/home" element={<HomeScreen/>}/>
             <Route
